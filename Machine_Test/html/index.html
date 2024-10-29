@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Community</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="navbar">
+            <img src="../assets/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="register-btn" onclick="window.location.href='signup.html'">Register</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The largest community of photo enthusiasts</h1>
+            <button class="cta-button" onclick="window.location.href='signup.html'">Join Today</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="header">
+            <h2>Have you ever posted any photo on social media?</h2>
+            <p>A community is a group of individuals who come together, sharing common interests, goals, or values. It provides a sense of belonging, support, and connection, fostering collaboration and mutual aid. Within a community, people exchange knowledge, ideas, and resources, building a supportive network that helps each member grow. Communities can be formed around shared locations, hobbies, cultures, or goals, both online and offline. The strength of a community lies in its collective spirit, where everyone contributes, cares, and works towards common welfare. Being part of a community enhances individual well-being and creates a positive impact on society as a whole.</p>
+        </section>
+        <section class="content">
+            <div class="text-content">
+                <div class="item">
+                    <h3>Social Media Info</h3>
+                    <p>A social media post is a piece of content shared on platforms like Instagram, Facebook, Twitter, or LinkedIn, aiming to engage, inform, or entertain an audience. Posts can include text, images, videos, links, or a combination of these, often crafted to spark reactions or discussions. Social media posts are widely used by individuals, brands, and organizations to express opinions, promote products, share news, or connect with followers. The effectiveness of a post lies in its ability to resonate with the target audience, encouraging likes, shares, and comments, which amplify reach and visibility within the digital landscape.</p>
+                </div>
+                <div class="item">
+                    <h3>Social Media Craziness</h3>
+                    <p>A social media post serves as a digital expression or message that individuals, brands, or organizations share to connect with audiences worldwide. Each post is crafted to engage, inform, entertain, or inspire followers, making social media platforms vibrant spaces for interaction. Posts often include a mix of media, such as text, images, videos, and links, tailored to capture the attention of the target audience. For brands and influencers, social media posts are essential marketing tools, offering opportunities to showcase products, promote services, or highlight important causes in an authentic, accessible way.</p>
+                </div>
+                <div class="item">
+                    <h3>Indian Heritage and Culture</h3>
+                    <p>India, a vibrant and diverse country in South Asia, is known for its rich history, cultural heritage, and stunning landscapes. Home to over a billion people, India is a land of multiple languages, religions, and traditions, making it one of the most culturally varied countries in the world. The nation has contributed greatly to art, science, literature, and philosophy, with landmarks like the Taj Mahal showcasing its architectural prowess.</p>
+                </div>
+            </div>
+            <div class="image-content">
+                <img src="../assets/Building.jpeg" alt="Community background image" />
+            </div>
+        </section>
+    </main>
+
+    <section class="signup-section">
+        <h1>Ready to take a free trial?</h1>
+        <p>Join thousands of passionate users who are transforming their photography experience with our platform! Capture, share, and enhance your photos like never before. Start your journey with a free trial and discover tools designed to take your creativity to new heights. No credit card required — just your enthusiasm!</p>
+
+        <div class="signup-form">
+            <h2>Sign up for a free account</h2>
+            <form id="registerForm">
+                <div class="input-group">
+                    <input type="text" placeholder="First name" required>
+                    <input type="text" placeholder="Last name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="Email address" required>
+                    <input type="text" placeholder="Phone Number" required>
+                </div>
+                <input type="password" placeholder="Create password" required>
+                <button type="submit" id="registerButton">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
